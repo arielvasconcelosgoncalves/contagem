@@ -23,13 +23,6 @@ body {
     width: 20vw;
 
 }
-
-h1 {
-    font-size: 2rem;
-    margin-bottom: 70vh;
-    color: black;
-}
-
 #countdown {
     font-size: 2rem;
     font-weight: bold;
@@ -41,11 +34,6 @@ h1 {
         width: 70vw; /* Ajusta a largura da container para ser maior em dispositivos móveis */
         padding: 20px; /* Reduz o padding para dar mais espaço */
     }
-
-    h1 {
-        font-size: 1.5rem; /* Reduz o tamanho da fonte para telas menores */
-    }
-
     #countdown {
         font-size: 1.5rem; /* Ajusta o tamanho da fonte da contagem regressiva */
     }
@@ -58,11 +46,6 @@ h1 {
         height: 70vh; /* Ajusta a altura da container */
         padding: 15px; /* Reduz o padding */
     }
-
-    h1 {
-        font-size: 1.2rem; /* Ajusta ainda mais o tamanho da fonte do título */
-    }
-
     #countdown {
         font-size: 1.2rem; /* Ajusta ainda mais o tamanho da contagem regressiva */
     }
