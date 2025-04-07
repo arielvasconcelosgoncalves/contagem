@@ -35,3 +35,35 @@ h1 {
     font-weight: bold;
     color: #ff6347;
 }
+/* Responsividade para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+    .container {
+        width: 70vw; /* Ajusta a largura da container para ser maior em dispositivos móveis */
+        padding: 20px; /* Reduz o padding para dar mais espaço */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Reduz o tamanho da fonte para telas menores */
+    }
+
+    #countdown {
+        font-size: 1.5rem; /* Ajusta o tamanho da fonte da contagem regressiva */
+    }
+}
+
+/* Responsividade para telas muito pequenas (dispositivos menores que 480px) */
+@media (max-width: 480px) {
+    .container {
+        width: 90vw; /* Aumenta a largura da container para telas ainda menores */
+        height: 70vh; /* Ajusta a altura da container */
+        padding: 15px; /* Reduz o padding */
+    }
+
+    h1 {
+        font-size: 1.2rem; /* Ajusta ainda mais o tamanho da fonte do título */
+    }
+
+    #countdown {
+        font-size: 1.2rem; /* Ajusta ainda mais o tamanho da contagem regressiva */
+    }
+}
