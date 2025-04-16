@@ -1,5 +1,5 @@
 // Defina a data e hora do evento para o qual você está fazendo a contagem regressiva
-const countDownDate = new Date("Apr 17, 2025 19:00:00").getTime();
+const countDownDate = new Date("Apr 17, 2025 09:30:00").getTime();
 
 // Atualiza a contagem regressiva a cada 1 segundo
 const x = setInterval(function() {
@@ -19,7 +19,7 @@ const x = setInterval(function() {
     // Se a contagem regressiva terminar, exibe uma mensagem
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "Tempo esgotado!";
+        document.getElementById("countdown").innerHTML = "Ela Chegou!";
     }
 }, 1000);
 
