@@ -24,9 +24,18 @@ body {
 
 }
 #countdown {
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #ff6347;
+    background-color: black;
+    font-family: cursive;
+}
+#countdown_vacancy {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff6347;
+    background-color: black;
+    font-family: cursive;
 }
 /* Responsividade para telas menores (dispositivos móveis) */
 @media (max-width: 768px) {
@@ -35,7 +44,10 @@ body {
         padding: 20px; /* Reduz o padding para dar mais espaço */
     }
     #countdown {
-        font-size: 1.5rem; /* Ajusta o tamanho da fonte da contagem regressiva */
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte da contagem regressiva */
+    }
+    #countdown_vacancy{
+        font-size: 0.9rem;
     }
 }
 
@@ -47,6 +59,9 @@ body {
         padding: 15px; /* Reduz o padding */
     }
     #countdown {
-        font-size: 1.2rem; /* Ajusta ainda mais o tamanho da contagem regressiva */
+        font-size: 0.7rem; /* Ajusta ainda mais o tamanho da contagem regressiva */
+    }
+    #countdown_vacancy {
+        font-size: 0.7rem; /* Ajusta ainda mais o tamanho da contagem regressiva */
     }
 }

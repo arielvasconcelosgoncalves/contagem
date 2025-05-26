@@ -1,5 +1,5 @@
 // Defina a data e hora do evento para o qual você está fazendo a contagem regressiva
-const countDownDate = new Date("May 23, 2025 14:30:00").getTime();
+const countDownDate = new Date("Jun 06, 2025 14:30:00").getTime();
 
 // Atualiza a contagem regressiva a cada 1 segundo
 const x = setInterval(function() {
@@ -13,13 +13,38 @@ const x = setInterval(function() {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Exibe o resultado no elemento com o id "countdown"
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    document.getElementById("countdown").innerHTML = "Retorno: "+days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
     // Se a contagem regressiva terminar, exibe uma mensagem
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("countdown").innerHTML = "Ela Chegou!";
+    }
+}, 1000);
+
+// Defina a data e hora do evento para o qual você está fazendo a contagem regressiva
+const countDownDateVacancy = new Date("Jul 04, 2025 19:30:00").getTime();
+
+// Atualiza a contagem regressiva a cada 1 segundo
+const y = setInterval(function() {
+    const nowVacancy = new Date().getTime();
+    const distanceVacancy = countDownDateVacancy - nowVacancy;
+
+    // Calcula o tempo restante
+    const daysVacancy = Math.floor(distanceVacancy / (1000 * 60 * 60 * 24));
+    const hoursVacancy = Math.floor((distanceVacancy % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutesVacancy = Math.floor((distanceVacancy % (1000 * 60 * 60)) / (1000 * 60));
+    const secondsVacancy = Math.floor((distanceVacancy % (1000 * 60)) / 1000);
+
+    // Exibe o resultado no elemento com o id "countdown"
+    document.getElementById("countdown_vacancy").innerHTML = "Férias: "+daysVacancy + "d " + hoursVacancy + "h "
+    + minutesVacancy + "m " + secondsVacancy + "s ";
+
+    // Se a contagem regressiva terminar, exibe uma mensagem
+    if (distanceVacancy < 0) {
+        clearInterval(y);
+        document.getElementById("countdown_vacancy").innerHTML = "Férias!";
     }
 }, 1000);
 
