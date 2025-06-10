@@ -1,5 +1,5 @@
 // Defina a data e hora do evento para o qual você está fazendo a contagem regressiva
-const countDownDate = new Date("Jun 06, 2025 14:30:00").getTime();
+const countDownDate = new Date("Jun 19, 2025 09:30:00").getTime();
 
 // Atualiza a contagem regressiva a cada 1 segundo
 const x = setInterval(function() {
