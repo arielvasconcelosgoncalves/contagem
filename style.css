@@ -44,10 +44,10 @@ body {
         padding: 20px; /* Reduz o padding para dar mais espaço */
     }
     #countdown {
-        font-size: 20px; /* Ajusta o tamanho da fonte da contagem regressiva */
+        font-size: 22px; /* Ajusta o tamanho da fonte da contagem regressiva */
     }
     #countdown_vacancy{
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
@@ -59,9 +59,9 @@ body {
         padding: 15px; /* Reduz o padding */
     }
     #countdown {
-        font-size: 15px; /* Ajusta ainda mais o tamanho da contagem regressiva */
+        font-size: 20px; /* Ajusta ainda mais o tamanho da contagem regressiva */
     }
     #countdown_vacancy {
-        font-size: 15px; /* Ajusta ainda mais o tamanho da contagem regressiva */
+        font-size: 20px; /* Ajusta ainda mais o tamanho da contagem regressiva */
     }
 }
